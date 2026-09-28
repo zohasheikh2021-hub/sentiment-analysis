@@ -52,8 +52,9 @@ if not MODEL_PATH.exists():
 
 try:
     pipeline = load_pipeline()
-except Exception as exc:  # corrupted file, version mismatch, ...
-    st.error(f"Could not load the saved model: {exc}")
+except Exception as exc:
+    st.error("Could not load the saved model.")
+    st.exception(exc)
     st.stop()
 
 review = st.text_area("Enter a review:", height=140,
