@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Evaluation Report - AI-Powered Sentiment Analysis
 
 All numbers below were produced by running `src/train.py` and the notebook on the provided dataset (`random_state=42`). Nothing is estimated or invented. Full raw numbers: `reports/results.json`.
@@ -87,3 +88,6 @@ The first three match the expected type. The fifth is wrong: it sounds positive,
 
 ## 11. Conclusion
 The project delivers a complete, reproducible traditional NLP + ML pipeline (clean, TF-IDF, model comparison, cross-validation, GridSearchCV, saved Pipeline, Streamlit app). Logistic Regression with TF-IDF unigrams+bigrams was chosen on cross-validation evidence and practical grounds, and reached a perfect score on the held-out test set. Because of the duplicated, template-like dataset, the honest conclusion is that the workflow is correct and the model fits this dataset; real-world performance is untested and needs more varied data.
+=======
+
+>>>>>>> 373438162095ac4bbb3a763fbe644399c6d7bdca

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 review_id,review_text,sentiment,category,source
 1,This product exceeded my expectations in several ways. It has been a good experience so far.,Positive,Books,Online Store
 2,The item is uncomfortable to use and poorly designed. I would not buy it again.,Negative,Books,Online Store
@@ -9999,3 +10000,6 @@ review_id,review_text,sentiment,category,source
 9998,The box included the accessories listed in the product description.,Neutral,Books,Website
 9999,"I really like this product; it is useful, reliable, and easy to use. It has been a good experience so far.",Positive,Electronics,Online Store
 10000,The battery lasts a long time and charges quickly. I would consider buying it again.,Positive,Travel,Mobile App
+=======
+
+>>>>>>> 373438162095ac4bbb3a763fbe644399c6d7bdca

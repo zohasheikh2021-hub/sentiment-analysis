@@ -41,4 +41,8 @@ def index():
                           f'<p>Confidence: <b>{proba.max()*100:.1f}%</b></p>{bars}</div>')
             except Exception as exc:
                 result = f'<div class="box warn">Something went wrong: {escape(str(exc))}</div>'
+<<<<<<< HEAD
     return PAGE.format(review=escape(review), result=result)
+=======
+    return PAGE.format(review=escape(review), result=result)
+>>>>>>> 373438162095ac4bbb3a763fbe644399c6d7bdca
